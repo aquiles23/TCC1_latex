@@ -1,9 +1,158 @@
 \chapter*[Introdução]{Introdução}
 \addcontentsline{toc}{chapter}{Introdução}
 
-Este documento apresenta considerações gerais e preliminares relacionadas 
-à redação de relatórios de Projeto de Graduação da Faculdade UnB Gama 
-(FGA). São abordados os diferentes aspectos sobre a estrutura do trabalho, 
-uso de programas de auxilio a edição, tiragem de cópias, encadernação, etc.
+% Este documento apresenta considerações gerais e preliminares relacionadas 
+% à redação de relatórios de Projeto de Graduação da Faculdade UnB Gama 
+% (FGA). São abordados os diferentes aspectos sobre a estrutura do trabalho, 
+% uso de programas de auxilio a edição, tiragem de cópias, encadernação, etc.
 
-Este template é uma adaptação do ABNTeX2\footnote{\url{https://github.com/abntex/abntex2/}}.
+% Este template é uma adaptação do ABNTeX2\footnote{\url{https://github.com/abntex/abntex2/}}.
+
+Este capítulo tem como objetivo informar o leitor sobre a temática
+principal do trabalho. A contextualização descreve o universo no qual o
+trabalho estará inserido apontando um problema no qual gera uma questão
+de pesquisa que motiva a elaboração de uma solução e seus objetivos.
+
+\section{Contextualização}
+
+% Segundo \cite{paim_o_2009} um sistema de saúde é pode ser qualquer coisa que trabalhe em conjunto com  a saúde desde hospitais, postos de saúde até universidades, escolas, agencias de fiscalização sanitária, ou seja, existe uma diferença entre sistemas de saúde e sistema de serviços de saúde.
+
+
+O Sistema Único de Saúde(SUS) implantado pelo governo brasileiro corresponde a uma medida de seguridade social, isto é, uma forma de garantir a saúde da população financiando-a através dos impostos coletados pelo estado.(\cite{paim_o_2009})
+
+De acordo com \cite{noauthor_sis_2017}, apesar do SUS ser mal visto pelas suas muitas filas para atendimento de emergência hospitalares, teve um ótimo desempenho na erradicação de doenças preventivas por vacinas, como a poliomielite e, no controle de doenças transmitidas por vetores, como dengue, malária e leishmaniose. Além de um bom trabalho na educação para prevenção de doenças sexualmente transmissíveis.
+
+Porém, algumas vacinas foram perdendo adesão com o tempo. Segundo \cite{lima_os_2020}, a vacina tríplice viral(sarampo, caxumba e rubéola) teve uma adesão de 96,07\% em 2015 e em 2017 teve uma adesão de 84,97\%, totalizando uma queda de 11,1\% desse imunizante. Com a tetraviral(sarampo, rubéola, caxumba e varicela) houve um episódio similar no qual em 2014 a adesão foi de 90,19\%, enquanto em 2017 esse percentual foi para 71,5\%, sendo observada uma queda de 18,69\%.
+
+\cite{lima_os_2020} afirma que em novembro de 2018 houve um surto de sarampo totalizando 2801 casos em todo o Brasil. Estes casos foram mais acentuados na Amazônia e Roraima que fazem fronteira com a Venezuela durante sua onda de imigração e dispõem de mais dificuldades  por depender pesadamente de um transporte fluvial e menos recursos em relação a estados que se localizam mais ao sul do Brasil. Neste caso a hipótese para esse grande aumento de casos está em um somatório de má gestão dos serviços de saúde, propagandas anti-vacina e uma falsa segurança pela doença não ser muito recorrente.
+
+Casos como o citado acima pode ser relacionado à hesitação vacinal, que segundo \cite{macdonald_vaccine_2015}, "se refere ao atraso para aceitar a vacina ou a total recusa dela". A hesitação vacinal se tornou um problema a ponto da Organização Mundial da Saúde, em 2019, a incluir na lista das dez maiores ameaças à saúde global. Assim, torna-se necessário criar mecanismos que venham a reduzir a hesitação vacinal para que doenças já erradicadas não voltem a surgir, conforme \cite{lima_os_2020}, indica como uma das consequências da hesitação vacinal.
+
+%TODO: fazer um fechamento relacionando o contexto com a tecnologia e 
+Segundo \cite{temporao_o_2003} o Brasil possui uma estratégia campanhista de vacinação, que é considerada mais eficiente que a de alguns países desenvolvidos, em determinada dia do ano é o dia de para vacinar contra alguma doença, a estratégia campanhista não se enquadra em mobilizações para vacinação eventuais por motivo de alastramento de uma doença ou para qualquer tipo de marketing, essa estratégia teve o feito de alcançar uma boa taxa de cobertura vacinal.
+
+Segundo \cite{sato_programa_2015} a estratégia campanhista apesar de ter bons resultados, em alguns locais apresentam bolsões de baixa cobertura vacinal, neste caso sistemas informatizados estão auxiliando na melhora desse quadro.
+
+O Brasil possui um sistema robusto para a realização da profilaxia contra as doenças mais comuns e perigosas que podem afligir sua população, porém, com base nos fatos expressados acima, a hesitação vacinal está crescendo ao mesmo tempo que em que, segundo \cite{sato_programa_2015} e \cite{cardoso_implantacao_2017}, está sendo combatida com diversos esforços municipais com diversos altos baixos dependendo do quanto desenvolvido para implementar políticas públicas e comprometido ao combate da hesitação vacinal é este município. 
+
+
+% \section{Hipótese}
+
+% O aumento da hesitação vacinal estaria relacionado com a falta de atenção em relação ao consumo do reforço de vacinas?
+
+\section{Justificativa}
+
+Em relação ao problema que é a hesitação vacinal, o atraso para completar a imunização é prejudicial para o controle de doenças. De acordo com \cite{gianfredi_countering_2019}, a hesitação vacinal pode ser explicada pelo modelo 3C que inclui complacência, confiança e conveniência:
+\begin{itemize}
+    \item Complacência: A percepção reduzida do risco no qual a doença pode representar dado o baixo número de casos da infecção;
+    \item Confiança: Que é a confiança passada pela mídia, figuras públicas ou por quem toma decisão no âmbito jurídico, legislativo ou executivo pela adoção ou não de determinado imunizante;
+    \item Conveniência: Se refere à qualidade, apelo e conforto do serviço, podendo ser real ou percebido.
+\end{itemize}
+
+A falta de informação e atenção em relação aos prazos de imunização é resultado da falta de conveniência, inclusive \cite{bragazzi_how_2017} afirma que o interesse em pesquisar sobre vacinas está crescendo.
+
+Como explicado, a conveniência pode ser tanto real ou percebida e a falta dela pode levar à hesitação vacinal. Por exemplo, a falta de conveniência real seria uma pessoa morar em uma  localização geográfica de difícil acesso a postos de saúde.
+
+A falta de conveniência também pode ser percebida e neste caso pode estar correlacionada à quantidade massiva de informações que o indivíduo tem ao realizar uma pesquisa, sendo que parte delas são falsas ou não são dados oficiais disponibilizados pelos órgãos de saúde, o que pode levar a um desentendimento sobre quais vacinas tem para o indivíduo consumir e seus respectivos prazos e reforços.
+
+Esta falta de conveniência percebida pode ser escalada para falta de confiança. De acordo com \cite{puri_social_2020}, a partir do momento em que os meios oficiais não conseguem emitir informações que passam credibilidade ao seu usuário, obrigando as pessoas a se informarem através de alguma mídia, pode gerar uma polarização e ser prejudicial para julgamento de seus espectadores, porque cada mídia pode se divergir em algum ponto em sua divulgação, principalmente na maioria das mídias digitais que são mais informais e menos regularizadas.
+
+\cite{gianfredi_countering_2019} afirma que há aplicações que envia mensagens de textos do tipo SMS ou que realizam ligações para lembrar indivíduos a se vacinarem e que isto foi bem efetivo para reduzir o atraso vacinal. Ele também afirma que existem estudos em  progresso sobre utilizar aplicativos de redes sociais, como \textit{WhatsApp}, para avisar seus usuários a se comprometerem com o calendário vacinal.
+
+Visto que a troca de mensagens de texto via SMS é similar à troca de mensagens feita por meio de aplicativos mensageiros, pode-se supor que, baseado nos estudos citados por \cite{gianfredi_countering_2019}, se obterá um resultado positivo na redução da hesitação vacinal. Portanto, este trabalho se compromete a desenvolver um sistema no qual o usuário possa receber informações e notificações sobre os seus principais imunizantes vacinais.
+
+\section{Questão de Pesquisa} \label{questao_pesquisa}
+Este trabalho se propõe à criação de um Sistema de Informação de Imunização utilizando de conceitos provenientes da Engenharia de Software para responder à seguinte pergunta:
+
+
+\textit{A hesitação vacinal pode ser reduzida usando um sistema de informação e de notificação que auxilie o usuário a se informar e se comprometer com o calendário vacinal?}
+
+\section{Objetivos}
+
+    \subsection{Objetivo Geral}
+        O objetivo central deste trabalho é desenvolver um Sistema de Informação de Imunizantes que ajude a diminuir a hesitação vacinal através de uma aplicação web que avisará o usuário quando ele deve consumir determinada vacina e informará o local mais próximo em que está disponível.
+
+    \subsection{Objetivo Específico}
+        Para alcançar o objetivo central, este projeto visa:
+
+        \begin{itemize}
+            \item Exibir dados de vacinação do usuário a qualquer tempo que ele tenha acesso ao sistema;
+            \item Informar dados relevantes sobre a vacina, como intervalos de datas de reforço e seus efeitos colaterais;
+            \item Exibir um mapa com os pontos de vacinação mais próximos para o possível deslocamento do usuário;
+            \item Permitir que um usuário vincule dependentes legais ao seu perfil para gerenciar a vacinação destes;
+            \item Notificar o usuário  por \textit{e-mail} ou pelos aplicativos de conversa \textit{Whatsapp} e \textit{Telegram}.
+
+            % \item permitir o usuário inserir as vacinas que ele tomou. 
+        \end{itemize}
+
+\section{Metodologia}
+    A execução deste projeto será dividida em duas etapas, sendo a primeira a de pesquisa e embasamento teórico e a segunda a de desenvolvimento da aplicação correspondente.
+    
+    \subsection{Metodologia de Pesquisa}
+        Para a realização da etapa de pesquisa foram analisadas as características do problema a ser tratado e a metodologia Pesquisa-ação foi identificada como a mais coerente. Segundo \cite{tripp_pesquisa-cao_2005}, pesquisa-ação é uma método que usa técnicas de pesquisas tradicionais para descrever uma ação que será aplicada em contexto com o objetivo de melhorar uma atividade. Assim sendo, será proposto o desenvolvimento de um software capaz de responder à questão de pesquisa.
+        
+        \cite{tripp_pesquisa-cao_2005} diz que a Pesquisa-ação deve ser inovadora, contínua, participativa, problematizada, documentada e disseminada. Por essas características, tal metodologia foi selecionada para a condução deste projeto, já que este se propõe a criar um sistema novo para uso da população com o objetivo de atenuar o problema da hesitação vacinal.
+    
+    \subsection{Metodologia do desenvolvimento}
+        A segunda etapa do projeto compreende a metodologia de desenvolvimento da aplicação, ao qual os participantes do projeto analisaram a realidade envolvida e adotarão uma metodologia ágil. Esse tipo de metodologia é focada na entrega contínua de \textit{features}(recursos a serem implementados) que cumprem um requisito de forma satisfatória. Serão utilizadas ferramentas dos \textit{frameworks Scrum} e \textit{eXtreme Programming} (XP).
+        
+        O \textit{Scrum}, como já dito, é um \textit{framework} que foca na \textbf{transparência} do processo e das decisões tomadas, na \textbf{inspeção} dos artefatos (código e documentos produzidos) para avaliar possíveis melhorias e, na \textbf{adaptação} à mudanças. Deste \textit{framework} será utilizado o conceito de \textit{Sprints}, que indica um período de tempo no qual uma parte do software deve ser entregue. Também serão realizadas os eventos de Planejamento, Revisão e Retrospectiva da \textit{Sprint}.
+        
+        Já o XP, é focado no trabalho em equipe melhorando a comunicação, simplicidade e o \textit{feedback}. Deste framework serão utilizados a Histórias de Usuário para levantamento de requisitos e o \textit{Kanban} para priorização e monitoramento das atividades nas \textit{Sprints}.
+        
+
+    \subsection{Cronograma} \label{cronograma}
+        O cronograma deste projeto será dividido em duas etapas. A primeira diz respeito à analise, planejamento e definição da proposta de implementação do projeto, enquanto a segunda corresponderá ao desenvolvimento efetivo dele.
+
+        \subsubsection{Etapa 1 que também será denominada de TCC1}
+
+            \begin{center} 
+                \begin{tabular}{ |c| c| c| c |}
+                     \hline
+                     Atividade & Fevereiro & Março & Abril \\
+                     \hline
+                     Revisão bibliográfica & x & x & x \\ 
+                     \hline
+                     Elaboração da proposta & x & x & x \\  
+                     \hline
+                     Refinamento da proposta &  & x &  \\
+                     \hline
+                     Definição dos requisitos & x &  & \\
+                     \hline
+                     Protótipo de alto nível da solução & x & x & \\
+                     \hline
+                     Definição de Arquitetura & x & x & \\
+                     \hline
+                     Desenvolvimento da amostra da solução  & & x & x \\
+                     \hline
+                     
+                \end{tabular}
+            \end{center}
+
+
+        \subsubsection{Etapa 2 que também é conhecida como TCC2}
+        
+        \begin{center} 
+            \begin{tabular}{ |c| c| c| c |c|}
+                 \hline
+                 Atividade & Junho  & Julho & Agosto & Setembro  \\
+                 \hline
+                 Desenvolvimento da proposta & x  & x  & x  &  \\ 
+                 \hline
+                 Testes de Usuário & & x & x & \\
+                 \hline
+                 Coleta e interpretação dos resultados & & & x & x \\
+                 \hline
+            \end{tabular}
+        \end{center}
+        
+\section{Organização do Trabalho}
+
+Este trabalho foi organizado nos seguintes capítulos:
+
+\begin{itemize}
+    \item Introdução: este é o capítulo inicial e procura apresentar a contextualização, a principal questão problema a ser trabalhada e o objetivo central, além de uma síntese inicial sobre as metodologias envolvidas, o cronograma de todo o projeto e a organização do trabalho;
+    \item Referencial Teórico: capítulo que aborda os principais conceitos e recursos relacionados ao embasamento teórico que subsidiará a proposta elaborada na primeira etapa do projeto e sua execução na segunda etapa, conforme planejada no cronograma (seção \ref{cronograma});
+    \item Proposta: capítulo que apresenta em detalhes a proposta de solução do problema de pesquisa ressaltado na seção \ref{questao_pesquisa}, além da melhor exploração das metodologias que serão adotadas neste trabalho explicando \textit{o que} e \textit{como} o projeto será desenvolvido;
+    \item Considerações Finais:Discussão final sobre esta proposta e a perspectiva dos resultados a serem alcançados com o seu desenvolvimento e implementação.
+\end{itemize}
